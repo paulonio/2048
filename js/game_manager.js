@@ -171,8 +171,8 @@ GameManager.prototype.move = function (direction) {
             
 
             // Converge the two tiles' positions
-            tile.updatePosition(positions.next);
-            tile.updatePosition(positions.tile);
+            tile.updatePosition(next2);
+            next.updatePosition(next2);
             
 
             // Update the score
